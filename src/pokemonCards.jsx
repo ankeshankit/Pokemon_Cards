@@ -14,6 +14,7 @@ const PokemonCards = ({ pokemonData }) => {
         link.download = `${pokemonData.name}.png`;
         link.href = canvas.toDataURL("image/png");
         link.click();
+        //This is testing for the git second commit.
       });
     });
   };
